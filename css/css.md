@@ -99,7 +99,7 @@ Sassで書くときも、モジュール単位に分けて記述すること。�
 
 使える名前としては、こんな感じ？
 
-    block, unit, cell, item-holder, item, gallery, widget, message/note, text, login/signin, sidebar etc...
+    block, unit, cell, item-holder, item, gallery, widget, message/note, text, login/signin, sidebar, bucket, clan, kin etc...
 
 #### ハイフンとアンダーバー
 子要素の命名の時にハイフンを使うのかアンダーバーを使うのか<br>
@@ -183,5 +183,8 @@ OOCSSは`Object Oriented CSS`の略。Nicole Sullivanという人が言い出し
 てな風にHTMLを書きます。
 
 これをすることで、CSSの使い回しができるようになりますね。一番最初に書いたように、モジュール単位で管理をすれば、CSSを効率よく書くことも可能です。
+
+ちなみに、この考え方をもうちょい進めたSMACSSってのもあります。[参考](http://chroma.hatenablog.com/entry/2013/07/22/120818)<br>
+あと、SMURFSってのもあるらしい。[参考](https://github.com/railslove/smurfville)  これはCSSではなくてRailなのかな
 
 そんな感じ。
